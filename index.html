@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Intro component with sign-up main</title>
+</head>
+
+<body>
+    <main>
+        <div class="intro-text">
+            <h1>Learn to code by <br> watching others</h1>
+            <p>
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </div>
+        <div class="content-box">
+            <div class="first-button border-radius center-text">
+                <p> Try it free 7 days
+                    <span class="grayish-blue "> then $20/mo. thereafter </span>
+                </p>
+            </div>
+            <form action="" id="form" class="border-radius">
+
+                <input type="text " name="firstname " id="firstname " placeholder="First Name" required class="border-radius">
+                <span id="first_error"></span>
+
+                <input type="text " name="lastname " id=" lastname" placeholder="Last Name" required class="border-radius">
+
+                <input type="email " name=" " id=" email" placeholder="Email Address" required class="border-radius">
+
+                <input type="password " name=" " id=" password" placeholder="Password" required class="border-radius">
+
+                <button type="submit " class="border-radius center-text">Claim your free trial</button>
+                <p class="center-text">
+                    <span class=" grayish-blue ">By clicking the button, you are agreeing to our</span>
+                    <span class="red ">Terms and Services </span>
+                </p>
+            </form>
+        </div>
+
+
+        <!-- <div id="content-section ">
+
+                <div id="logo ">
+                    <img src="./images/logo.svg " alt="logo ">
+                </div>
+
+                <div id="content ">
+                    <h1>We're
+                        <span> coming <br> soon</span>
+                    </h1>
+                    <p>
+                        Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+                    </p>
+                    <div id="input-wrapper ">
+                        <input type="email " name="email " id="email " placeholder="Email Address " spellcheck="false " onkeyup="validateEmail() ">
+                        <img src="./images/icon-error.svg " alt=" " id="icon-error ">
+                        <button type="submit ">
+                            <img src="./images/icon-arrow.svg " alt="icon-arrow ">
+                           
+                        </button>
+                    </div>
+                    <span id="email-error "></span>
+                </div>
+
+            </div> -->
+
+
+
+
+    </main>
+
+
+    <!-- <script>
+        var email = document.getElementById("email ");
+        var emailError = document.getElementById("email-error ");
+        var inputWrapper = document.getElementById("input-wrapper ");
+        var iconError = document.getElementById("icon-error ");
+        var popup = document.getElementById("popup ");
+
+
+        function validateEmail() {
+            if (!email.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                emailError.innerHTML = "Please provide a valid email ";
+                inputWrapper.style.borderColor = "red ";
+                iconError.style.display = "inline ";
+                return false;
+            }
+            emailError.innerHTML = " ";
+            emailError.style.color = " "
+            inputWrapper.style.borderColor = " ";
+            iconError.style.display = " ";
+            return true;
+
+        }
+    </script> -->
+</body>
+
+</html>
+
+</html>
